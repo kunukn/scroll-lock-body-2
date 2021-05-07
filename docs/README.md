@@ -8,6 +8,7 @@ scrollLockBody
 
 - [disableScrollLock](README.md#disablescrolllock)
 - [enableScrollLock](README.md#enablescrolllock)
+- [getScrollbarWidth](README.md#getscrollbarwidth)
 - [isScrollLockEnabled](README.md#isscrolllockenabled)
 
 ## Functions
@@ -18,7 +19,7 @@ scrollLockBody
 
 **Returns:** *void*
 
-Defined in: [index.ts:11](https://github.com/kunukn/scroll-lock-body/blob/6bb4c4e/src/index.ts#L11)
+Defined in: [index.ts:9](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L9)
 
 ___
 
@@ -28,7 +29,17 @@ ___
 
 **Returns:** *void*
 
-Defined in: [index.ts:4](https://github.com/kunukn/scroll-lock-body/blob/6bb4c4e/src/index.ts#L4)
+Defined in: [index.ts:3](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L3)
+
+___
+
+### getScrollbarWidth
+
+▸ `Const`**getScrollbarWidth**(): *number*
+
+**Returns:** *number*
+
+Defined in: [index.ts:23](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L23)
 
 ___
 
@@ -38,4 +49,4 @@ ___
 
 **Returns:** *boolean*
 
-Defined in: [index.ts:21](https://github.com/kunukn/scroll-lock-body/blob/6bb4c4e/src/index.ts#L21)
+Defined in: [index.ts:15](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L15)
