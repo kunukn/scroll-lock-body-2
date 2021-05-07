@@ -19,7 +19,7 @@ scrollLockBody
 
 **Returns:** *void*
 
-Defined in: [index.ts:9](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L9)
+Defined in: [index.ts:9](https://github.com/kunukn/scroll-lock-body-2/blob/e960032/src/index.ts#L9)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 **Returns:** *void*
 
-Defined in: [index.ts:3](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L3)
+Defined in: [index.ts:3](https://github.com/kunukn/scroll-lock-body-2/blob/e960032/src/index.ts#L3)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 **Returns:** *number*
 
-Defined in: [index.ts:23](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L23)
+Defined in: [index.ts:23](https://github.com/kunukn/scroll-lock-body-2/blob/e960032/src/index.ts#L23)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 **Returns:** *boolean*
 
-Defined in: [index.ts:15](https://github.com/kunukn/scroll-lock-body-2/blob/dfcb12f/src/index.ts#L15)
+Defined in: [index.ts:15](https://github.com/kunukn/scroll-lock-body-2/blob/e960032/src/index.ts#L15)
