@@ -16,10 +16,12 @@ export const isScrollLockEnabled = (): boolean => {
   return document.body.getAttribute(attribute) != null;
 };
 
-/*
-Copied from 
-https://github.com/twbs/bootstrap/blob/main/js/src/util/scrollbar.js
-*/
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v5.0.0): util/scrollBar.js
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * --------------------------------------------------------------------------
+ */
 export const getScrollbarWidth = (): number => {
   // https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth#usage_notes
   const documentWidth = document.documentElement.clientWidth;

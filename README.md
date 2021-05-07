@@ -6,9 +6,8 @@
 
 ## About
 
-Minimal code to enable scroll lock on the body element.<br><br>
+Minimal code to enable scroll lock on the body element.<br>
 This uses the approach from Bootstrap modal components.
-Some code are copied from the Bootstrap repository.
 
 ## Demo
 

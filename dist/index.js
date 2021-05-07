@@ -1,5 +1,5 @@
 /*!
- * scroll-lock-body-2 v0.0.2
+ * scroll-lock-body-2 v0.0.1
  * (c) kunukn
  * Released under the MIT License.
  */
@@ -22,10 +22,12 @@ var disableScrollLock = function () {
 var isScrollLockEnabled = function () {
     return document.body.getAttribute(attribute) != null;
 };
-/*
-Copied from
-https://github.com/twbs/bootstrap/blob/main/js/src/util/scrollbar.js
-*/
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v5.0.0): util/scrollBar.js
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * --------------------------------------------------------------------------
+ */
 var getScrollbarWidth = function () {
     // https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth#usage_notes
     var documentWidth = document.documentElement.clientWidth;
