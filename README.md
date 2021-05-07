@@ -38,6 +38,7 @@ import {
   enableScrollLock,
   disableScrollLock,
   isScrollLockEnabled,
+  getScrollbarWidth,
 } from 'scroll-lock-body-2';
 ```
 
