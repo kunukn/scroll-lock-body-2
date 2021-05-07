@@ -6,23 +6,19 @@
 
 ## About
 
-Minimal code to enable scroll lock on the body element.
+Minimal code to enable scroll lock on the body element.<br><br>
 This uses the approach from Bootstrap modal components.
 Some code are copied from the Bootstrap repository.
 
-<!-- ## Demo
+## Demo
 
-- <a href="https://nol5t.csb.app/" target="_blank" rel="noopener noreferrer">Codesandbox view</a>
+- <a href="https://vd53k.csb.app/" target="_blank" rel="noopener noreferrer">Codesandbox view</a>
 
-- <a href="https://codesandbox.io/s/scroll-lock-body-demo-nol5t" target="_blank" rel="noopener noreferrer">Codesandbox edit</a>
+- <a href="https://codesandbox.io/s/scroll-lock-body-2-demo-vd53k" target="_blank" rel="noopener noreferrer">Codesandbox edit</a>
 
-- <a href="https://codepen.io/kunukn/full/yLgZovx" target="_blank" rel="noopener noreferrer">Codepen view</a>
+- <a href="https://codepen.io/kunukn/full/mdWymRj" target="_blank" rel="noopener noreferrer">Codepen view</a>
 
-- <a href="https://codepen.io/kunukn/pen/yLgZovx" target="_blank" rel="noopener noreferrer">Codepen edit</a>
-
-- <a href="https://2esfs.csb.app" target="_blank" rel="noopener noreferrer">Vue view</a>
-
-- <a href="https://codesandbox.io/s/vue-scroll-lock-body-demo-2esfs" target="_blank" rel="noopener noreferrer">Vue edit</a> -->
+- <a href="https://codepen.io/kunukn/pen/mdWymRj" target="_blank" rel="noopener noreferrer">Codepen edit</a>
 
 ## Installation
 
