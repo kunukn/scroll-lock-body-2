@@ -1,4 +1,4 @@
-# scroll-lock-body
+# scroll-lock-body-2
 
 [![License](https://badgen.net/github/license/kunukn/scroll-lock-body-2)](./LICENSE)
 [![Library minified size](https://badgen.net/bundlephobia/min/scroll-lock-body-2)](https://bundlephobia.com/result?p=scroll-lock-body-2)
