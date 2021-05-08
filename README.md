@@ -9,6 +9,11 @@
 Minimal code to enable scroll lock on the body element.<br>
 This uses the approach from Bootstrap modal components.
 
+## Alternate version with margin-top implementation
+
+An alternate version with same API exists with some required CSS setup<br>
+https://github.com/kunukn/scroll-lock-body
+
 ## Demo
 
 - <a href="https://vd53k.csb.app/" target="_blank" rel="noopener noreferrer">Codesandbox view - VanillaJS</a>
