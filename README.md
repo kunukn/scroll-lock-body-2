@@ -43,6 +43,18 @@ import {
   isScrollLockEnabled,
   getScrollbarWidth,
 } from 'scroll-lock-body-2';
+
+// Run this to lock the body scroll
+enableScrollLock();
+
+// Run this to unlock the body scroll
+disableScrollLock();
+
+// Run this to get the lock state
+isScrollLockEnabled(); // returns trur or false
+
+// Run this to get the width of the body scrollbar
+getScrollbarWidth(); // returns a number
 ```
 
 ### Installation from CDN
