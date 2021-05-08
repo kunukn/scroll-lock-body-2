@@ -19,6 +19,10 @@ This uses the approach from Bootstrap modal components.
 
 - <a href="https://codepen.io/kunukn/pen/mdWymRj" target="_blank" rel="noopener noreferrer">Codepen edit</a>
 
+- <a href="https://pr4ph.csb.app" target="_blank" rel="noopener noreferrer">Vue view</a>
+
+- <a href="https://codesandbox.io/s/vue-scroll-lock-body-2-demo-pr4ph" target="_blank" rel="noopener noreferrer">Vue edit</a>
+
 ## Installation
 
 This library is published in the NPM registry and can be installed using any compatible package manager.
