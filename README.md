@@ -18,15 +18,15 @@ https://github.com/kunukn/scroll-lock-body
 
 <table style="border-spacing: 10px;border-collapse: separate;border: 0;">
 
+<tr><td>Codepen VanillaJS</td>
+<td><a href="https://codepen.io/kunukn/full/mdWymRj" target="_blank" rel="noopener noreferrer">View</a></td>
+<td> <a href="https://codepen.io/kunukn/pen/mdWymRj" target="_blank" rel="noopener noreferrer">Edit</a></td>
+</tr>
+
 <tr>
 <td>Codesandbox VanillaJS</td>
 <td><a href="https://vd53k.csb.app/" target="_blank" rel="noopener noreferrer">View</a></td><td> <a href="https://codesandbox.io/s/scroll-lock-body-2-demo-vd53k" target="_blank" rel="noopener noreferrer">Edit</a>
 </td>
-</tr>
-
-<tr><td>Codepen VanillaJS</td>
-<td><a href="https://codepen.io/kunukn/full/mdWymRj" target="_blank" rel="noopener noreferrer">View</a></td>
-<td> <a href="https://codepen.io/kunukn/pen/mdWymRj" target="_blank" rel="noopener noreferrer">Edit</a></td>
 </tr>
 
 <tr><td>Codesandbox VueJS</td>
