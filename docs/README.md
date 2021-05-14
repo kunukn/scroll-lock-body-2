@@ -15,27 +15,27 @@ scrollLockBody
 
 ### disableScrollLock
 
-▸ `Const`**disableScrollLock**(): *void*
+▸ `Const` **disableScrollLock**(): *void*
 
 **Returns:** *void*
 
-Defined in: [index.ts:9](https://github.com/kunukn/scroll-lock-body-2/blob/4955f5d/src/index.ts#L9)
+Defined in: [index.ts:9](https://github.com/kunukn/scroll-lock-body-2/blob/e484569/src/index.ts#L9)
 
 ___
 
 ### enableScrollLock
 
-▸ `Const`**enableScrollLock**(): *void*
+▸ `Const` **enableScrollLock**(): *void*
 
 **Returns:** *void*
 
-Defined in: [index.ts:3](https://github.com/kunukn/scroll-lock-body-2/blob/4955f5d/src/index.ts#L3)
+Defined in: [index.ts:3](https://github.com/kunukn/scroll-lock-body-2/blob/e484569/src/index.ts#L3)
 
 ___
 
 ### getScrollbarWidth
 
-▸ `Const`**getScrollbarWidth**(): *number*
+▸ `Const` **getScrollbarWidth**(): *number*
 
 --------------------------------------------------------------------------
 Bootstrap (v5.0.0): util/scrollBar.js
@@ -44,14 +44,14 @@ Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 **Returns:** *number*
 
-Defined in: [index.ts:25](https://github.com/kunukn/scroll-lock-body-2/blob/4955f5d/src/index.ts#L25)
+Defined in: [index.ts:25](https://github.com/kunukn/scroll-lock-body-2/blob/e484569/src/index.ts#L25)
 
 ___
 
 ### isScrollLockEnabled
 
-▸ `Const`**isScrollLockEnabled**(): *boolean*
+▸ `Const` **isScrollLockEnabled**(): *boolean*
 
 **Returns:** *boolean*
 
-Defined in: [index.ts:15](https://github.com/kunukn/scroll-lock-body-2/blob/4955f5d/src/index.ts#L15)
+Defined in: [index.ts:15](https://github.com/kunukn/scroll-lock-body-2/blob/e484569/src/index.ts#L15)
