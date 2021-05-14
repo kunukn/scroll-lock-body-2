@@ -21,6 +21,18 @@ https://github.com/kunukn/scroll-lock-body
 <table style="border-spacing: 16px;border-collapse: separate;">
 
 <tr>
+<td>Codesandbox React</td>
+<td><a href="https://rjr9o.csb.app" target="_blank" rel="noopener noreferrer">View</a></td>
+<td><a href="https://codesandbox.io/s/react-scroll-lock-body-2-demo-rjr9o" target="_blank" rel="noopener noreferrer">Edit</a></td>
+</tr>
+
+<tr>
+<td>Codesandbox Vue</td>
+<td><a href="https://pr4ph.csb.app" target="_blank" rel="noopener noreferrer">View</a></td>
+<td><a href="https://codesandbox.io/s/vue-scroll-lock-body-2-demo-pr4ph" target="_blank" rel="noopener noreferrer">Edit</a></td>
+</tr>
+
+<tr>
 <td>Codepen VanillaJS</td>
 <td><a href="https://codepen.io/kunukn/full/mdWymRj" target="_blank" rel="noopener noreferrer">View</a></td>
 <td><a href="https://codepen.io/kunukn/pen/mdWymRj" target="_blank" rel="noopener noreferrer">Edit</a></td>
@@ -30,18 +42,6 @@ https://github.com/kunukn/scroll-lock-body
 <td>Codesandbox VanillaJS</td>
 <td><a href="https://vd53k.csb.app/" target="_blank" rel="noopener noreferrer">View</a></td>
 <td><a href="https://codesandbox.io/s/scroll-lock-body-2-demo-vd53k" target="_blank" rel="noopener noreferrer">Edit</a></td>
-</tr>
-
-<tr>
-<td>Codesandbox ReactJS</td>
-<td><a href="https://rjr9o.csb.app" target="_blank" rel="noopener noreferrer">View</a></td>
-<td><a href="https://codesandbox.io/s/react-scroll-lock-body-2-demo-rjr9o" target="_blank" rel="noopener noreferrer">Edit</a></td>
-</tr>
-
-<tr>
-<td>Codesandbox VueJS</td>
-<td><a href="https://pr4ph.csb.app" target="_blank" rel="noopener noreferrer">View</a></td>
-<td><a href="https://codesandbox.io/s/vue-scroll-lock-body-2-demo-pr4ph" target="_blank" rel="noopener noreferrer">Edit</a></td>
 </tr>
 
 </table>
