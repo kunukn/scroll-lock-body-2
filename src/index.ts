@@ -1,20 +1,20 @@
-const attribute = 'data-scroll-lock-is-active';
+const attribute = 'data-scroll-lock-is-active'
 
 export const enableScrollLock = (): void => {
-  document.body.style.paddingRight = getScrollbarWidth() + 'px';
-  document.body.style.overflow = 'hidden';
-  document.body.setAttribute(attribute, '');
-};
+  document.body.style.paddingRight = getScrollbarWidth() + 'px'
+  document.body.style.overflow = 'hidden'
+  document.body.setAttribute(attribute, '')
+}
 
 export const disableScrollLock = (): void => {
-  document.body.style.paddingRight = '';
-  document.body.style.overflow = '';
-  document.body.removeAttribute(attribute);
-};
+  document.body.style.paddingRight = ''
+  document.body.style.overflow = ''
+  document.body.removeAttribute(attribute)
+}
 
 export const isScrollLockEnabled = (): boolean => {
-  return document.body.getAttribute(attribute) != null;
-};
+  return document.body.getAttribute(attribute) != null
+}
 
 /**
  * --------------------------------------------------------------------------
@@ -24,6 +24,6 @@ export const isScrollLockEnabled = (): boolean => {
  */
 export const getScrollbarWidth = (): number => {
   // https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth#usage_notes
-  const documentWidth = document.documentElement.clientWidth;
-  return Math.abs(window.innerWidth - documentWidth);
-};
+  const documentWidth = document.documentElement.clientWidth
+  return Math.abs(window.innerWidth - documentWidth)
+}
