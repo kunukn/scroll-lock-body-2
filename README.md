@@ -11,6 +11,21 @@
 Minimal code to enable scroll lock on the body element.<br>
 This uses the approach from Bootstrap modal components.
 
+It has been tested on
+
+- Phones (iOS, Android)
+- Tablets (iPadOS, Android)
+- Laptops (Mac, Windows)
+- Modern browsers
+
+It updates when the devices rotates and if the height changes on interaction.
+
+## Browser Support
+
+| ![Chrome](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/70.0.0/chrome/chrome_48x48.png) | ![Safari](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/70.0.0/safari-ios/safari-ios_48x48.png) | ![Firefox](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/70.0.0/firefox/firefox_48x48.png) |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| 60+                                                                                            | 12+                                                                                                    | 60+                                                                                               |
+
 ## Alternate version with margin-top implementation
 
 An alternate version with same API exists with some required CSS setup<br>
@@ -69,19 +84,19 @@ import {
   disableScrollLock,
   isScrollLockEnabled,
   getScrollbarWidth,
-} from 'scroll-lock-body-2';
+} from 'scroll-lock-body-2'
 
 // Run this to lock the body scroll
-enableScrollLock();
+enableScrollLock()
 
 // Run this to unlock the body scroll
-disableScrollLock();
+disableScrollLock()
 
 // Run this to get the lock state
-isScrollLockEnabled(); // returns true or false
+isScrollLockEnabled() // returns true or false
 
 // Run this to get the width of the body scrollbar
-getScrollbarWidth(); // returns a number
+getScrollbarWidth() // returns a number
 ```
 
 ### Installation from CDN
@@ -97,7 +112,7 @@ This module has an UMD bundle available through JSDelivr and Unpkg CDNs.
 
 <script>
   // UMD module is exposed through the "scrollLockBody" global variable.
-  console.log(scrollLockBody);
+  console.log(scrollLockBody)
 </script>
 ```
 
