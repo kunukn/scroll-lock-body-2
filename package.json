@@ -1,6 +1,6 @@
 {
   "name": "scroll-lock-body-2",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "scroll lock the body and remember the position",
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",
@@ -31,6 +31,10 @@
     "watch": "rollup -w --config ./rollup.config.js",
     "prepublishOnly": "npm run doc && npm run build && npm run test"
   },
+  "files": [
+    "dist",
+    "docs"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@types/eslint": "^7.2.9",
