@@ -61,10 +61,12 @@ export default defineComponent({
   methods: {
     onClose() {
       this.isModalVisible = false
+
       disableScrollLock()
     },
     onToggle() {
       this.isModalVisible = !this.isModalVisible
+
       if (this.isModalVisible) enableScrollLock()
       else disableScrollLock()
     },
