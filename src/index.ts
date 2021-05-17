@@ -1,7 +1,18 @@
 const attribute = 'data-scroll-lock-is-active'
 
-export const enableScrollLock = (): void => {
-  document.body.style.paddingRight = getScrollbarWidth() + 'px'
+export interface EnableParams {
+  addPadding?: boolean
+}
+
+export const enableScrollLock = (data?: EnableParams): void => {
+  const { addPadding } = data || {}
+  if (addPadding || addPadding === undefined) {
+    const scrollbarWidth = getScrollbarWidth()
+    if (scrollbarWidth) {
+      document.body.style.paddingRight = getScrollbarWidth() + 'px'
+    }
+  }
+
   document.body.style.overflow = 'hidden'
   document.body.setAttribute(attribute, '')
 }

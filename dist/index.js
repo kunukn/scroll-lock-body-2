@@ -9,8 +9,14 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var attribute = 'data-scroll-lock-is-active';
-var enableScrollLock = function () {
-    document.body.style.paddingRight = getScrollbarWidth() + 'px';
+var enableScrollLock = function (data) {
+    var addPadding = (data || {}).addPadding;
+    if (addPadding || addPadding === undefined) {
+        var scrollbarWidth = getScrollbarWidth();
+        if (scrollbarWidth) {
+            document.body.style.paddingRight = getScrollbarWidth() + 'px';
+        }
+    }
     document.body.style.overflow = 'hidden';
     document.body.setAttribute(attribute, '');
 };

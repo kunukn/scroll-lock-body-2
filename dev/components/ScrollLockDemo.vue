@@ -1,8 +1,8 @@
 <template>
-  <div class="modal" id="modal">
+  <div class="modal" id="modal" v-show="isModalVisible">
     <div class="modal-overlay"></div>
     <div class="modal-content -elevation-10" id="modal-content">
-      <button class="btn-close">close</button>
+      <button class="btn-close" @click="onClose">close</button>
       <p class="text">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -23,7 +23,7 @@
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum<br /><br />
       </p>
-      <button class="btn-close">close</button>
+      <button class="btn-close" @click="onClose">close</button>
     </div>
   </div>
 
@@ -34,8 +34,8 @@
   <p>remembers the scroll position</p>
 
   <div class="toggle-wrapper">
-    <button class="toggle -elevation-10" id="toggle">
-      <span>toggle</span>
+    <button class="toggle -elevation-10" id="toggle" @click="onToggle">
+      <span>Toggle {{ isModalVisible }}</span>
     </button>
   </div>
 </template>
@@ -43,73 +43,36 @@
 <script lang="ts">
 // @ts-nocheck
 
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 import {
   disableScrollLock,
   enableScrollLock,
   getScrollbarWidth,
   isScrollLockEnabled,
-} from '../../dist/index.esm';
+} from '../../dist/index.esm'
 
 export default defineComponent({
   data() {
-    return {};
+    return {
+      isModalVisible: false,
+    }
   },
   computed: {},
-  methods: {},
-  beforeMount() {},
-  mounted() {
-    run();
+  methods: {
+    onClose() {
+      this.isModalVisible = false
+      disableScrollLock()
+    },
+    onToggle() {
+      this.isModalVisible = !this.isModalVisible
+      if (this.isModalVisible) enableScrollLock()
+      else disableScrollLock()
+    },
   },
+  beforeMount() {},
+  mounted() {},
   beforeUnmount() {},
-});
-
-function run() {
-  // TODO: convert this to Vue
-
-  console.log('scrollbarWidth', getScrollbarWidth());
-
-  let isModalVisible = false;
-  let byId = (id) => document.getElementById(id);
-
-  let toggleButton = byId('toggle');
-  let modal = byId('modal');
-
-  let onDisable = () => {
-    isModalVisible = false;
-    uiUpdate();
-  };
-  let uiUpdate = () => {
-    modal.style.display = isModalVisible ? '' : 'none';
-
-    if (isModalVisible) {
-      enableScrollLock();
-      toggleButton.innerHTML = `<span>Toggle</span> <span>${
-        isScrollLockEnabled() ? 'enabled' : 'disabled'
-      }</span>`;
-    } else {
-      disableScrollLock();
-      toggleButton.innerHTML = `<span>Toggle</span> <span>${
-        isScrollLockEnabled() ? 'enabled' : 'disabled'
-      }</span>`;
-    }
-  };
-
-  [].slice.call(document.querySelectorAll('.btn-close')).forEach((b) => {
-    b.addEventListener('click', onDisable);
-  });
-
-  if (!isModalVisible) {
-    onDisable();
-  }
-
-  toggleButton.addEventListener('click', (event) => {
-    isModalVisible = !isModalVisible;
-    uiUpdate();
-  });
-
-  modal.classList.add('is-ready');
-}
+})
 </script>
 
 <style lang="scss">

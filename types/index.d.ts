@@ -1,4 +1,7 @@
-export declare const enableScrollLock: () => void;
+export interface EnableParams {
+    addPadding?: boolean;
+}
+export declare const enableScrollLock: (data?: EnableParams | undefined) => void;
 export declare const disableScrollLock: () => void;
 export declare const isScrollLockEnabled: () => boolean;
 /**
