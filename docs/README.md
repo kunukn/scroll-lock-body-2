@@ -19,7 +19,7 @@ scrollLockBody
 
 **Returns:** *void*
 
-Defined in: [index.ts:9](https://github.com/kunukn/scroll-lock-body-2/blob/2f5dc95/src/index.ts#L9)
+Defined in: [index.ts:9](https://github.com/kunukn/scroll-lock-body-2/blob/497014f/src/index.ts#L9)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 **Returns:** *void*
 
-Defined in: [index.ts:3](https://github.com/kunukn/scroll-lock-body-2/blob/2f5dc95/src/index.ts#L3)
+Defined in: [index.ts:3](https://github.com/kunukn/scroll-lock-body-2/blob/497014f/src/index.ts#L3)
 
 ___
 
@@ -44,7 +44,7 @@ Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 **Returns:** *number*
 
-Defined in: [index.ts:25](https://github.com/kunukn/scroll-lock-body-2/blob/2f5dc95/src/index.ts#L25)
+Defined in: [index.ts:25](https://github.com/kunukn/scroll-lock-body-2/blob/497014f/src/index.ts#L25)
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 **Returns:** *boolean*
 
-Defined in: [index.ts:15](https://github.com/kunukn/scroll-lock-body-2/blob/2f5dc95/src/index.ts#L15)
+Defined in: [index.ts:15](https://github.com/kunukn/scroll-lock-body-2/blob/497014f/src/index.ts#L15)
