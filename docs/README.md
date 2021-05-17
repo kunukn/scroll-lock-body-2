@@ -4,10 +4,6 @@ scrollLockBody
 
 ## Table of contents
 
-### Interfaces
-
-- [EnableParams](interfaces/enableparams.md)
-
 ### Functions
 
 - [disableScrollLock](README.md#disablescrolllock)
@@ -23,23 +19,17 @@ scrollLockBody
 
 **Returns:** *void*
 
-Defined in: [index.ts:20](https://github.com/kunukn/scroll-lock-body-2/blob/8daa8c4/src/index.ts#L20)
+Defined in: [index.ts:16](https://github.com/kunukn/scroll-lock-body-2/blob/988277c/src/index.ts#L16)
 
 ___
 
 ### enableScrollLock
 
-▸ `Const`**enableScrollLock**(`data?`: [*EnableParams*](interfaces/enableparams.md)): *void*
-
-#### Parameters:
-
-| Name | Type |
-| :------ | :------ |
-| `data?` | [*EnableParams*](interfaces/enableparams.md) |
+▸ `Const`**enableScrollLock**(): *void*
 
 **Returns:** *void*
 
-Defined in: [index.ts:7](https://github.com/kunukn/scroll-lock-body-2/blob/8daa8c4/src/index.ts#L7)
+Defined in: [index.ts:4](https://github.com/kunukn/scroll-lock-body-2/blob/988277c/src/index.ts#L4)
 
 ___
 
@@ -54,7 +44,7 @@ Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 **Returns:** *number*
 
-Defined in: [index.ts:36](https://github.com/kunukn/scroll-lock-body-2/blob/8daa8c4/src/index.ts#L36)
+Defined in: [index.ts:34](https://github.com/kunukn/scroll-lock-body-2/blob/988277c/src/index.ts#L34)
 
 ___
 
@@ -64,4 +54,4 @@ ___
 
 **Returns:** *boolean*
 
-Defined in: [index.ts:26](https://github.com/kunukn/scroll-lock-body-2/blob/8daa8c4/src/index.ts#L26)
+Defined in: [index.ts:24](https://github.com/kunukn/scroll-lock-body-2/blob/988277c/src/index.ts#L24)

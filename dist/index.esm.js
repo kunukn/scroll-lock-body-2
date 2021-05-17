@@ -1,13 +1,13 @@
 /*!
- * scroll-lock-body-2 v0.0.11
+ * scroll-lock-body-2 v0.0.12
  * (c) kunukn
  * Released under the MIT License.
  */
 
 var attribute = 'data-scroll-lock-is-active';
-var enableScrollLock = function (data) {
-    var addPadding = (data || {}).addPadding;
-    if (addPadding || addPadding === undefined) {
+var noPadding = 'scrollLockNoPadding';
+var enableScrollLock = function () {
+    if (document.body.dataset[noPadding] == null) {
         var scrollbarWidth = getScrollbarWidth();
         if (scrollbarWidth) {
             document.body.style.paddingRight = getScrollbarWidth() + 'px';
@@ -17,7 +17,9 @@ var enableScrollLock = function (data) {
     document.body.setAttribute(attribute, '');
 };
 var disableScrollLock = function () {
-    document.body.style.paddingRight = '';
+    if (document.body.dataset[noPadding] == null) {
+        document.body.style.paddingRight = '';
+    }
     document.body.style.overflow = '';
     document.body.removeAttribute(attribute);
 };

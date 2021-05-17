@@ -1,6 +1,6 @@
 {
   "name": "scroll-lock-body-2",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "scroll lock the body and remember the position",
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",
@@ -20,7 +20,8 @@
     ]
   },
   "scripts": {
-    "dev": "vite --port 3066",
+    "dev": "concurrently \"yarn dev0\" \"yarn watch\"",
+    "dev0": "vite --port 3066",
     "serve": "vite preview",
     "doc": "typedoc src/index.ts",
     "test": "npm run test:lint && npm run test:unit",
@@ -46,6 +47,7 @@
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.11",
     "browser-sync": "^2.26.14",
+    "concurrently": "^6.1.0",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",

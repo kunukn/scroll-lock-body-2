@@ -1,12 +1,8 @@
 const attribute = 'data-scroll-lock-is-active'
+const noPadding = 'scrollLockNoPadding'
 
-export interface EnableParams {
-  addPadding?: boolean
-}
-
-export const enableScrollLock = (data?: EnableParams): void => {
-  const { addPadding } = data || {}
-  if (addPadding || addPadding === undefined) {
+export const enableScrollLock = (): void => {
+  if (document.body.dataset[noPadding] == null) {
     const scrollbarWidth = getScrollbarWidth()
     if (scrollbarWidth) {
       document.body.style.paddingRight = getScrollbarWidth() + 'px'
@@ -18,7 +14,9 @@ export const enableScrollLock = (data?: EnableParams): void => {
 }
 
 export const disableScrollLock = (): void => {
-  document.body.style.paddingRight = ''
+  if (document.body.dataset[noPadding] == null) {
+    document.body.style.paddingRight = ''
+  }
   document.body.style.overflow = ''
   document.body.removeAttribute(attribute)
 }
